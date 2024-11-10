@@ -4,7 +4,7 @@ class personagemCarateristicas{
         this.name = name
         this.age = age        
     }
-    escrever(){
+    atacar(){
     let ataqueUsado
 
         if (this.type === "mago") {
@@ -22,4 +22,4 @@ class personagemCarateristicas{
 }
 
 let personagem = new personagemCarateristicas("guerreiro")
-personagem.escrever()
+personagem.atacar()
